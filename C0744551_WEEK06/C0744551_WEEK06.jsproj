@@ -69,6 +69,7 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="EventHandling.html" />
+    <Content Include="FormValidation.html" />
     <Content Include="images\sad.png" />
     <Content Include="images\smile.png" />
     <Content Include="ImgEeventHandling.html" />
