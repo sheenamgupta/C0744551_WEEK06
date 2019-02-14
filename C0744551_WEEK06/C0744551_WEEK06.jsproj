@@ -78,6 +78,7 @@
     <Content Include="images\Wide310x150Logo.scale-200.png" />
     <Content Include="js\main.js" />
     <Content Include="css\default.css" />
+    <Content Include="multiTable.html" />
     <Content Include="while.html" />
     <None Include="C0744551_WEEK06_TemporaryKey.pfx" />
   </ItemGroup>
