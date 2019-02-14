@@ -2,11 +2,24 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>C0744551_WEEK06</title>
+    <title>t1</title>
     <link href="css/default.css" rel="stylesheet" />
+    <script type="text/javascript">
+        function addNumbers(j) {
+            var sum = 0;
+            for (var i = 0; i < j; i++) {
+                sum += i;
+            }
+            return sum;
+        }
+    </script>
 </head>
 <body>
-    <div>Content goes here!</div>
+    <div>First Program</div>
     <script src="js/main.js"></script>
+    <script>
+        var inputnumber = prompt("State starting number");
+        document.write(addNumbers(inputnumber));
+    </script>
 </body>
 </html>
