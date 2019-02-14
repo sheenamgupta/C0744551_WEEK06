@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>t1</title>
+    <script>
+        function addNumbers(j) {
+            var sum = 0;
+            var i = 0;
+            while(i<j) {
+                sum += i;
+                i++;
+            }
+            return sum;
+        }
+    </script>
+</head>
+<body>
+    <div>Content goes here.</div>
+    <script>
+        var inputnumber = prompt("enter starting number");
+        document.write(addNumbers(inputnumber));
+    </script>
+</body>
+</html>
