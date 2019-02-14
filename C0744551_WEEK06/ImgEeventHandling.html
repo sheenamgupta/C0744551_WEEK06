@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Event!!!</title>
+    <script type="text/javascript">
+        function trigger() {
+            document.getElementById("hover").addEventListener("mouseover", popup);
+            function popup() {
+                var img = "<img src='images/sad.png'height='80px' width='80px'>";
+                document.getElementById("hover").innerHTML = img;
+
+            }
+        }
+    </script>
+    <style>
+        p {
+            font-size: 50px;
+            position: fixed;
+            left: 550px;
+            top: 300px;
+        }
+    </style>
+</head>
+<body onload="trigger();">
+    <p id="hover"><img src="images/smile.png" height="80" width="80"/></p>
+    <div>Content goes here.</div>
+</body>
+</html>

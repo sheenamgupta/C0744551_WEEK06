@@ -68,6 +68,10 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="EventHandling.html" />
+    <Content Include="images\sad.png" />
+    <Content Include="images\smile.png" />
+    <Content Include="ImgEeventHandling.html" />
     <Content Include="index.html" />
     <Content Include="images\LockScreenLogo.scale-200.png" />
     <Content Include="images\SplashScreen.scale-200.png" />
